@@ -1,0 +1,13 @@
+# Datasets crudos y outputs procesados
+datasets/
+scripts/output/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos temporales de Jupyter y Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
