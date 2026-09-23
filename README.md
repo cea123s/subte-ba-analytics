@@ -10,6 +10,7 @@ El proyecto entrega:
 * [Informe ejecutivo](<docs/Informe Ejecutivo.pdf>) con el analisis completo.
 * [Documentación Técnica](docs/documentacion_tecnica.md) en dónde se detallan los aspectos clave del proceso.
 * [Tablero en Power BI](imgs/) que permite profundizar en múltiples dimensiones.
+* [Notebooks](scripts/etl_unificado.ipynb) con todo el proceso ETL documentado al detalle.
 
 ---
 
