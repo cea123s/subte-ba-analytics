@@ -5,7 +5,13 @@ Análisis *end-to-end* del uso e infraestructura operativa de la red de subterr�
 
 El objetivo analítico evalúa la demanda estructural post-pandemia, identifica cuellos de botella en la infraestructura de validación y propone **estrategias operativas basadas en datos**.
 
-Se provee un **informe ejecutivo** con un analisis completo (ver docs.).
+El proyecto entrega:
+
+* [Informe ejecutivo](<docs/Informe Ejecutivo.pdf>) con el analisis completo.
+* [Documentación Técnica](docs/documentacion_tecnica.md) en dónde se detallan los aspectos clave del proceso.
+* [Tablero en Power BI](imgs/) que permite profundizar en múltiples dimensiones.
+
+---
 
 ## Key Insights (Foco Operativo 2022-2025)
 * **Contracción Estructural:** El techo de demanda se redujo un 30% de forma permanente frente a valores pre-COVID, estabilizándose en ~668.000 pasajeros diarios (2023).
@@ -47,7 +53,6 @@ Modelo relacional implementado en Power BI:
 
 ```
 subtes-ba-analytics/
-├── datasets/                              # Datasets crudos (fuente: BA Data GCBA)
 ├── docs/                                  # Documentación funcional y técnica
 │   ├── Informe Ejecutivo.pdf              # Diagnóstico operativo y resiliencia de la red
 │   └── documentacion_tecnica.md           # Arquitectura del modelo, pipeline ETL y diccionario DAX
@@ -56,11 +61,8 @@ subtes-ba-analytics/
 │   │   ├── eda_2020.ipynb                 # Exploración inicial del dataset crudo (2020)
 │   │   ├── eda_13-21.ipynb                # Verificación de integridad del período 2013-2021 (post etl)
 │   │   └── BaseUnificadaEstaciones.xlsx   # Dataset base para EDA 2020
-│   ├── etl_unificado.ipynb                # Pipeline ETL principal (extracción, transformación y carga)
-│   └── output/                            # Archivos .parquet procesados y particionados
-│       ├── 13-21/                         # Datos limpios 2013-2021
-│       └── 22-26/                         # Datos limpios 2022-2026
-├── imgs/                                  # Gráficos
+│   └── etl_unificado.ipynb                # Pipeline ETL principal (extracción, transformación y carga)
+├── imgs/                                  # Capturas del tablero en Power BI
 ├── .gitignore
 ├── requirements.txt
 └── README.md
