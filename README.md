@@ -1,4 +1,9 @@
 # Análisis y Modelado de Datos: Red de Subtes de Buenos Aires (2013-2026)
+<div align="center">
+  
+![Macros y Tendencias](/imgs/01_Macro_y_Tendencias_Generales.png)
+
+</div>
 
 ## Descripción del Proyecto
 Análisis *end-to-end* del uso e infraestructura operativa de la red de subterráneos de la Ciudad de Buenos Aires. El proyecto procesa más de **145 millones de registros históricos** aplicando un *pipeline* ETL para normalizar inconsistencias, optimizar los recursos de _hardware_ y estructurar un modelo analítico en *Power BI*. 
@@ -19,6 +24,17 @@ El proyecto entrega:
 * **Redistribución de Tráfico:** Las líneas B y D perdieron 7,1 puntos de participación conjunta. La Línea H incrementó su volumen (+69% relativo), consolidando su rol de anillo transversal.
 * **Estrés de Infraestructura:** La Línea B opera con un riesgo crítico (19,4 M pasajeros/molinete), exigiendo su infraestructura 5 veces más que la Línea C (3,7 M). Estaciones como Federico Lacroze, J.M. de Rosas y Congreso de Tucumán exhiben asimetrías y cuellos de botella severos en sus accesos.
 
+<div align="center">
+  
+![Operación y Horarios](/imgs/02_Operacion_y_Horarios.png)
+
+</div>
+
+<div align="center">
+  
+![Estaciones e Infraestructura](/imgs/03_Estaciones_e_Infraestructura.png)
+
+</div>
 ---
 
 ## Tech Stack
